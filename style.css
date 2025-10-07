@@ -212,7 +212,7 @@ body{
 /* body-elements-started */
 .body{
     max-width: 1280px;
-    height: 1700px;
+    height: 2500px;
     background-color: white;
     background-image: url(./images/bg-main.png);
 }
@@ -425,26 +425,32 @@ body{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 450px;
+    height: 420px;
     background-color: #232323;
     margin-top: 100px;
 }
 .sld1{
     border: 3px solid #232323;
-    width: 260px;
-    height: 400px;
+    width: 253px;
+    height: 420px;
     background-color: rgba(98, 98, 98,0.3);
     margin: 0px auto;
+    cursor: pointer;
 }
 .sld1 > img{
     width: 100%;
     background-color: #616161;
     height: 280px;
 }
+.sld1 > h3{
+    margin: 20px;
+    font-family: "Flexo-Regular",arial,sans-serif;
+    color: white;
+}
 .sld2{
     border: 3px solid #232323;
-    width: 260px;
-    height: 400px;
+    width: 255px;
+    height: 420px;
     background-color: rgba(98, 98, 98,0.3);
     margin: 0px auto;
 }
@@ -453,10 +459,15 @@ body{
     background-color: #616161;
     height: 280px;
 }
+.sld2 > h3{
+    margin: 20px;
+    font-family: "Flexo-Regular",arial,sans-serif;
+    color: white;
+}
 .sld3{
     border: 3px solid #232323;
-    width: 260px;
-    height: 400px;
+    width: 252px;
+    height: 420px;
     background-color: rgba(98, 98, 98,0.3);
     margin: 0px auto;
 }
@@ -465,10 +476,15 @@ body{
     background-color: #616161;
     height: 280px;
 }
+.sld3 > h3{
+    margin: 20px;
+    font-family: "Flexo-Regular",arial,sans-serif;
+    color: white;
+}
 .sld4{
     border: 3px solid #232323;
-    width: 260px;
-    height: 400px;
+    width: 253px;
+    height: 420px;
     background-color: rgba(98, 98, 98,0.3);
     margin: 0px auto;
 }
@@ -477,10 +493,15 @@ body{
     background-color: #616161;
     height: 280px;
 }
+.sld4 > h3{
+    margin: 20px;
+    font-family: "Flexo-Regular",arial,sans-serif;
+    color: white;
+}
 .sld5{
     border: 3px solid #232323;
-    width: 260px;
-    height: 400px;
+    width: 262px;
+    height: 420px;
     background-color: rgba(98, 98, 98,0.3);
     margin: 0px auto;
 }
@@ -489,6 +510,28 @@ body{
     background-color: #616161;
     height: 280px;
 }
+.sld5 > h3{
+    margin: 20px;
+    font-family: "Flexo-Regular",arial,sans-serif;
+    color: white;
+}
+/* .hover5 > div{
+    display: flex;
+    flex-direction: row;
+}
+.hover5 > div > h5{
+    margin-left: 10px;
+}
+#button1{
+    background-color: blue;
+    border: 0px;
+    margin-left: 20px;  
+}
+#button2{
+    background-color: blue;
+    border: 0px;
+    margin-left: 10px;  
+} */
 /* @media only screen and (max-width: 992px){
 .top-content{
     display: flex;
@@ -507,11 +550,12 @@ body{
  
  @media only screen and (max-width: 992px) {
 .body{
-    height: 2500px;
+    height: 3200px;
 }
     .top-content{
     width: 700px;
-    height: 2500px;
+    height: 2400px;
+    border-radius: 5px;
 }
 .top-left-content{
     width: 700px;
@@ -605,6 +649,27 @@ body{
     padding: 15px;
     padding-left: 20px;
     font-size: 137.5%;
+}
+.slider{
+    max-width: 992px;
+    height: 420px;
+    display: flex;
+    flex-direction: row;
+}
+.sld1{
+    max-width: 185px;
+}
+.sld2{
+    max-width: 185px;
+}
+.sld3{
+    max-width: 185px;
+}
+.sld4{
+    max-width: 185px;
+}
+.sld5{
+    max-width: 199px;
 }
 }
 @media only screen and (max-width: 668px) {
