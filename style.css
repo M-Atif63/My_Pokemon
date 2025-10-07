@@ -217,10 +217,11 @@ body{
     background-image: url(./images/bg-main.png);
 }
 .top-content{
-    height: 1500px;
+    height: 820px;
     width: 900px;
     background-color: white;
     margin: 0px auto;
+    border-radius: 8px;
 }
 .top-left-content{
     background-color: none;
@@ -414,7 +415,81 @@ body{
 .middle3:hover{
     background-color: #ff2a8e;
 }
-/* @media only screen and (max-width: 992px) {
+
+/* middle-content-ended */
+
+
+
+
+.slider{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 450px;
+    background-color: #232323;
+    margin-top: 100px;
+}
+.sld1{
+    border: 3px solid #232323;
+    width: 260px;
+    height: 400px;
+    background-color: rgba(98, 98, 98,0.3);
+    margin: 0px auto;
+}
+.sld1 > img{
+    width: 100%;
+    background-color: #616161;
+    height: 280px;
+}
+.sld2{
+    border: 3px solid #232323;
+    width: 260px;
+    height: 400px;
+    background-color: rgba(98, 98, 98,0.3);
+    margin: 0px auto;
+}
+.sld2 > img{
+    width: 100%;
+    background-color: #616161;
+    height: 280px;
+}
+.sld3{
+    border: 3px solid #232323;
+    width: 260px;
+    height: 400px;
+    background-color: rgba(98, 98, 98,0.3);
+    margin: 0px auto;
+}
+.sld3 > img{
+    width: 100%;
+    background-color: #616161;
+    height: 280px;
+}
+.sld4{
+    border: 3px solid #232323;
+    width: 260px;
+    height: 400px;
+    background-color: rgba(98, 98, 98,0.3);
+    margin: 0px auto;
+}
+.sld4 > img{
+    width: 100%;
+    background-color: #616161;
+    height: 280px;
+}
+.sld5{
+    border: 3px solid #232323;
+    width: 260px;
+    height: 400px;
+    background-color: rgba(98, 98, 98,0.3);
+    margin: 0px auto;
+}
+.sld5 > img{
+    width: 100%;
+    background-color: #616161;
+    height: 280px;
+}
+/* @media only screen and (max-width: 992px){
 .top-content{
     display: flex;
     flex-direction: row;
