@@ -515,6 +515,119 @@ body{
     font-family: "Flexo-Regular",arial,sans-serif;
     color: white;
 }
+.last-content1{
+    margin: 0px auto;
+    width: 900px;
+    height: 800px;
+    background-color: white;
+    margin-top: 150px;
+    border-radius: 10px;
+}
+.last-con-a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    width: 900px;
+    height: 1000px;
+    background-color: white;
+    border-radius: 10px;    
+}
+.last-con-a1{
+    margin-top: 30px;
+    width: 270px;
+    height: 380px;
+    background-color: rgb(133, 90, 201);
+    border-radius: 5px;
+}
+.last-con-a1 > a > img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.last-con-a1 > a > h3{
+    color: white;
+    font-family: "Flexo-Medium",arial,sans-serif;
+    font-size: 137.5%;
+    line-height: 125%;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.last-con-a1 > a > p{
+    color: black;
+    font-family: "Roboto",arial,sans-serif;
+    font-weight: 500;
+    line-height: 125%;
+    padding-top: 5px;
+    padding-left: 1.25em;
+}
+.last-con-a1:hover{
+    background-color: #734bb2;
+}
+.last-con-a2{
+    margin-top: 30px;
+    width: 270px;
+    height: 380px;
+    background-color: #30a7d7;
+    border-radius: 5px;
+}
+.last-con-a2 > a > img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.last-con-a2 > a > h3{
+    color: white;
+    font-family: "Flexo-Medium",arial,sans-serif;
+    font-size: 135.5%;
+    line-height: 125%;
+    padding-top: 20px;
+    padding-left: 15px;
+
+}
+.last-con-a2 > a > p{
+    color: black;
+    font-family: "Roboto",arial,sans-serif;
+    font-weight: 500;
+    line-height: 125%;
+    padding-top: 5px;
+    padding-left: 1.25em;
+}
+.last-con-a2:hover{
+    background-color: #1b82b1;
+}
+.last-con-a3{
+    margin-top: 30px;
+    width: 270px;
+    height: 380px;
+    background-color: #ff90ca;
+    border-radius: 5px;
+}
+.last-con-a3 > img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.last-con-a3 > a > h3{
+    color: white;
+    font-family: "Flexo-Medium",arial,sans-serif;
+    font-size: 135.5%;
+    line-height: 125%;
+    padding-top: 20px;
+    padding-left: 15px;
+
+}
+.last-con-a3 > a > p{
+    color: black;
+    font-family: "Roboto",arial,sans-serif;
+    font-weight: 500;
+    line-height: 125%;
+    padding-top: 5px;
+    padding-left: 0.6em;
+}
+.last-con-a3:hover
+{
+    background-color: #ff2a8e;
+}
 /* .hover5 > div{
     display: flex;
     flex-direction: row;
